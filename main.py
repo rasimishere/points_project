@@ -9,5 +9,10 @@ class Point:
 def main():
     num_points = int(input("how many points need to be created: "))
 
+for i in range(num_points):
+    print(f"Enter coordinates for point {i+1}:")
+    x = float(input(" x: "))
+    y = float(input(" y: "))
+    
 if __name__ == "__main__":
     main()
