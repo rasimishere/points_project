@@ -7,12 +7,13 @@ class Point:
         return f"Point(x={self.x}, y={self.y})"
 
 def main():
+    points = []
     num_points = int(input("how many points need to be created: "))
 
 for i in range(num_points):
     print(f"Enter coordinates for point {i+1}:")
-    x = float(input(" x: "))
-    y = float(input(" y: "))
+    x = float(input(" X: "))
+    y = float(input(" Y: "))
     points.append(Point(x, y))
 
 print(\nThe points you entered are:)
