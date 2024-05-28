@@ -13,6 +13,11 @@ for i in range(num_points):
     print(f"Enter coordinates for point {i+1}:")
     x = float(input(" x: "))
     y = float(input(" y: "))
+    points.append(Point(x, y))
+
+print(\nThe points you entered are:)
+for point in points:
+    print(point)
     
 if __name__ == "__main__":
     main()
